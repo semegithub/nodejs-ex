@@ -12,7 +12,7 @@ spec:
   ports:
     - name: 5000-tcp
       port: 5000
-      targetPort: 5000
+      targetPort: 8080
       protocol: TCP
   selector:
     app: %APP_NAME%
