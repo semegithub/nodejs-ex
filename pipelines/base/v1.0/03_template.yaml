@@ -89,7 +89,7 @@ spec:
   - name: project-name
     value: 'poc-mobiliar'
   - name: project-manifests
-    value: 'openshift'
+    value: 'openshift-2'
 ---
 apiVersion: triggers.tekton.dev/v1alpha1
 kind: EventListener
